@@ -17,3 +17,6 @@ i{
     left: 70px;
     z-index: 1;
 }
+nav input:not(:placeholder-shown) + i {
+    opacity: 0;
+  }
