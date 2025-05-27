@@ -1,9 +1,7 @@
-
-.flex{
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    margin: auto;
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px
 }
 figure{
     width: 200px;
