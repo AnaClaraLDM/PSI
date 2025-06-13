@@ -1,8 +1,12 @@
+
 body{
+    font-family: Rubik;
     margin: 0;
-    background-image: url(img/image\ 13.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #3B1283;
-    background-blend-mode: overlay;
+    background-image: url(img/Group\ 44.png);
+}
+label{
+    display: block;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
 }
