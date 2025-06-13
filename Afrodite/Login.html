@@ -5,22 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" href="cadastrologin.css">
 </head>
 <body>
-    <main>
-        <img src="img/Group 9.png" alt="Logo Afrodite">
-        <div class="login/cadastro">
-            <div>
-                <label for="email">Email</label>
-                <input id="email" type="email">
-            </div>
-            <div>
-                <label for="senha">Senha</label>
-                <input id="senha" type="password">
-            </div>
-            <div>
-                <a href="PaginaInício.html">Entrar</a>
-                <span><a href=""></a></span>
+    <main class="flex">
+        <div class="logincadastro flex">
+            <img src="img/Group 9.png" alt="Logo Afrodite">
+            <div class="login flex">
+                <div>
+                    <label for="email">Email</label>
+                    <input id="email" type="email">
+                </div>
+                <div>
+                    <div>
+                        <label for="senha">Senha</label>
+                        <input id="senha" type="password">
+                    </div>
+                        <span class="textinho">Esqueci a senha</span>
+                </div>
+                <div >
+                    <a class="botão flex" href="PaginaInício.html"><span>Entrar</span></a>
+                    <span class="textinho">Não tem conta?<a href="Tipodeusuário.html"><b>Cadastre-se</b></a></span>
+                </div>
             </div>
         </div>
     </main>

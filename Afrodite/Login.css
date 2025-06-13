@@ -1,12 +1,15 @@
-
-body{
-    font-family: Rubik;
-    margin: 0;
-    background-image: url(img/Group\ 44.png);
-}
 label{
     display: block;
     color: #FFF;
     font-size: 20px;
-    font-weight: 800;
+    font-weight: 800;   
 }
+input{
+    border-radius: 10px;
+    background: #FFF;
+    width: 399px;
+    height: 39px;
+    border: none;
+}
+
+
