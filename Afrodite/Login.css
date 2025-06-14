@@ -28,11 +28,13 @@ img{
     font-weight: 800;    
 }
 .textinho{
+    display: block;
     color: #FFF;
     font-size: 14px;
-    margin-top: 10px;
+    padding-top: 8px;
 }
 .logincadastro{ 
+    margin-top: 132.49px;
     position:relative;
     justify-content: center;
     width: 683px;
@@ -67,5 +69,7 @@ input{
     height: 39px;
     border: none;
 }
-
+div label{
+    margin-bottom: 5px;
+}
 

@@ -2,6 +2,10 @@
 html, main{
     height: 100vh;
 }
+main{
+    justify-content: center;
+    align-items: center;
+}
 body{
     font-family: Rubik;
     margin: 0;
@@ -11,14 +15,30 @@ body{
 }
 .flex{
     display: flex;
+    column-gap: 66px;
+}
+
+.logincadastro{ 
+    position:relative;
+    justify-content: center;
+    margin-top: 132.49px;
+    width: 710px;
+    height: 549px;
+    border-radius: 20px;
+    background: rgba(59, 18, 131, 0.7);
     justify-content: center;
     align-items: center;
+    
 }
 img{
     position:absolute;
     bottom: 416.02px;
+    right: 588.68px;
 }
 .botão{
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
     border-radius: 10px;
     background: #9FD9D2;
     width: 399px;
@@ -27,34 +47,27 @@ img{
     font-size: 20px;
     font-weight: 800;    
 }
-.logincadastro{ 
-    position:relative;
-    margin-top: 132.49px;
-    justify-content: center;
-    width: 683px;
-    height: 549px;
-    border-radius: 20px;
-    background: rgba(59, 18, 131, 0.7);
+label{
+    display: block;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;   
 }
-.login{
-    margin-top: 35.02px;
+input{
+    border-radius: 10px;
+    background: #FFF;
     width: 399px;
-    height: 283px;
-    flex-direction: column;
-    justify-content: space-between;
+    height: 39px;
+    border: none;
 }
-a b{
-    padding-left: 12px;
+.elemento{
+    flex-direction: column;
+    row-gap: 34px;
+}
+div label{
+    margin-bottom: 5px;
 }
 a{
     text-decoration: none;
     color: #FFF;
-}
-h1{
-    color: #FFF;
-    font-size: 20px;
-    text-align: center;
-}
-.empresa{
-    margin-bottom:108px ;
 }
