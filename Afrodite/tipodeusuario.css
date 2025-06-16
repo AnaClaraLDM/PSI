@@ -1,60 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-html, main{
-    height: 100vh;
-}
-body{
-    font-family: Rubik;
-    margin: 0;
-    background-image: url(img/Group\ 44.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.flex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-img{
-    position:absolute;
-    bottom: 416.02px;
-}
-.botão{
-    border-radius: 10px;
-    background: #9FD9D2;
-    width: 399px;
-    height: 39px;
-    text-shadow: 0px 4px 4px rgba(59, 18, 131, 0.60);
-    font-size: 20px;
-    font-weight: 800;    
-}
-.logincadastro{ 
-    position:relative;
+@import url('geral.css');
+
+.logincadastro {
+    position: relative;
     margin-top: 132.49px;
-    justify-content: center;
     width: 683px;
     height: 549px;
     border-radius: 20px;
     background: rgba(59, 18, 131, 0.7);
 }
-.login{
+
+.login {
     margin-top: 35.02px;
     width: 399px;
     height: 283px;
     flex-direction: column;
     justify-content: space-between;
 }
-a b{
-    padding-left: 12px;
-}
-a{
-    text-decoration: none;
-    color: #FFF;
-}
-h1{
+
+h1 {
     color: #FFF;
     font-size: 20px;
     text-align: center;
 }
-.empresa{
-    margin-bottom:108px ;
+
+a b {
+    padding-left: 12px;
+}
+
+.empresa {
+    margin-bottom: 108px;
 }

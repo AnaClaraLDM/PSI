@@ -3,17 +3,14 @@
 .logincadastro {
     position: relative;
     margin-top: 132.49px;
-    width: 1170px;
+    width: 710px;
     height: 549px;
     border-radius: 20px;
     background: rgba(59, 18, 131, 0.7);
 }
 
 img {
-    right: 1048.6px;
-}
-.login{
-    align-items: flex-start;
+    right: 588.68px;
 }
 
 .elemento {

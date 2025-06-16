@@ -1,73 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-html, main{
+
+html, main {
     height: 100vh;
 }
-main{
-    justify-content: center;
-    align-items: center;
-}
-body{
+
+body {
     font-family: Rubik;
     margin: 0;
     background-image: url(img/Group\ 44.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.flex{
+
+.flex {
     display: flex;
     column-gap: 66px;
 }
+.centralizar{
+    justify-content: center;
+    align-items: center;
+}
 
-.logincadastro{ 
-    position:relative;
-    justify-content: center;
-    margin-top: 132.49px;
-    width: 710px;
-    height: 549px;
-    border-radius: 20px;
-    background: rgba(59, 18, 131, 0.7);
-    justify-content: center;
-    align-items: center;
-    
-}
-img{
-    position:absolute;
+img {
+    position: absolute;
     bottom: 416.02px;
-    right: 588.68px;
 }
-.botão{
-    justify-content: center;
-    align-items: center;
-    margin-top: 26px;
+
+.botão {
     border-radius: 10px;
     background: #9FD9D2;
     width: 399px;
     height: 39px;
     text-shadow: 0px 4px 4px rgba(59, 18, 131, 0.60);
     font-size: 20px;
-    font-weight: 800;    
+    font-weight: 800;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
 }
-label{
+
+label {
     display: block;
     color: #FFF;
     font-size: 20px;
-    font-weight: 800;   
+    font-weight: 800;
 }
-input{
+
+input {
     border-radius: 10px;
     background: #FFF;
     width: 399px;
     height: 39px;
     border: none;
 }
-.elemento{
-    flex-direction: column;
-    row-gap: 34px;
-}
-div label{
+
+div label {
     margin-bottom: 5px;
 }
-a{
+
+a {
     text-decoration: none;
     color: #FFF;
+}
+input:focus{
+    outline-color: #F06073;
 }

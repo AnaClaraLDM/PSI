@@ -48,9 +48,7 @@ a{
     padding: 0px 22px 0px 65px;
     border: none;
 }
-.pesquisa:focus{
-    outline: none;
-}
+
 .parte{
     justify-content: space-between;
     align-items: center;
@@ -82,5 +80,30 @@ h1{
     color: #F06073;
     font-size: 20px;
     font-weight: 700;
+}
+h2,h3,span{
+    margin: 0px;
+    color: #FFF;
+}
+h2{
+    font-weight: 700;
+    font-size: 12px;
+}
+h3{
+    font-size: 8px;
+    font-weight: 400;
+}
+.texto{
+    margin-left: 20px;
+}
+span{
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    padding-top: 5px;
+}
+span b{
+    font-size: 20px;
+    padding: 0px 5px;
 }
 
