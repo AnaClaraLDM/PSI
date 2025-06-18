@@ -13,6 +13,7 @@ body{
 .cabeçalho{
     padding: 15px 106px 0px 106px;
     align-items: center;
+    column-gap: 10px;
 }
 header{
     background-color: #3B1283;
@@ -41,20 +42,31 @@ a{
     color: #F06073;
     font-weight: 800;
 }
+.search{
+    position: relative;
+    width: 60%;
+}
+.search img{
+    position: absolute;
+    left: 22px;
+    top: 11px;
+}
 .pesquisa{
-    width: 679px;
+    width: 100%;
     height: 54px;
     border-radius: 27px;
     padding: 0px 22px 0px 65px;
     border: none;
 }
-
+.search input:not(:placeholder-shown) + img{
+    opacity: 0;
+}
 .parte{
     justify-content: space-between;
     align-items: center;
 }
 .links{
-    font-size: 2vh;
+    font-size: 1.5vh;
     justify-content: space-between;
     padding-bottom: 15px;
 }
@@ -106,4 +118,8 @@ span b{
     font-size: 20px;
     padding: 0px 5px;
 }
+input:focus{
+    outline-color: #F06073;
+}
+
 
