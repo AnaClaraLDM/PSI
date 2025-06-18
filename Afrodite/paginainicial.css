@@ -11,7 +11,9 @@ body{
     height:86px;
 }
 .cabeçalho{
-    padding: 15px 106px 0px 106px;
+    margin: auto;
+    max-width: 1302px;
+    padding-top: 15px;
     align-items: center;
     column-gap: 10px;
 }
@@ -93,7 +95,7 @@ h1{
     font-size: 20px;
     font-weight: 700;
 }
-h2,h3,span{
+h2,h3,section span{
     margin: 0px;
     color: #FFF;
 }
@@ -106,6 +108,7 @@ h3{
     font-weight: 400;
 }
 .texto{
+    position: relative;
     margin-left: 20px;
 }
 span{
@@ -114,12 +117,29 @@ span{
     font-size: 12px;
     padding-top: 5px;
 }
-span b{
+section span b{
     font-size: 20px;
     padding: 0px 5px;
 }
 input:focus{
     outline-color: #F06073;
+}
+.precoriginal{
+    display: inline-block;
+    color: #D7BFFF;
+}
+.texto img{
+    position: absolute;
+    top: 31.03px;
+    left: 85px;
+
+}
+footer{
+    margin-top: 75px;
+    flex-direction: column;
+    align-items: center;
+    border-top:5px solid #3B1283;
+    padding: 100px 0px 50px 0px;
 }
 
 
