@@ -1,0 +1,21 @@
+.grid{
+    margin: auto;
+    margin-top: 54px;
+    max-width: 1302px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px 20px ;
+}
+main div{
+    width: 100%;
+    position: relative;
+}
+.imagem {
+    width: 100%;
+    height: auto;
+}
+.coração{
+    position: absolute;
+    top:120px;
+    left: 18px;
+}
