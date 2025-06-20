@@ -8,6 +8,17 @@
     <link rel="stylesheet" href="geral.css">
 </head>
 <body>
+<script>
+    function confirmarConta() {
+      const resposta = confirm("Conta criada com sucesso!\nDeseja salvar suas informações de login neste dispositivo?");
+      
+      if (resposta) {
+        alert("Informações de login salvas com sucesso!");
+      } else {
+        alert("Tudo certo! Suas informações não foram salvas.");
+      }
+    }
+</script>
     <main class="flex centralizar">
         <div class="logincadastro flex centralizar">
             <img src="img/Logogrande.svg" alt="Logo Afrodite">
@@ -29,7 +40,7 @@
                         <label for="senha">Confirmação da senha</label>
                         <input id="senha" type="password"> 
                     </div>
-                    <a class="botão flex" href="PaginaInício.html"><span>Criar Conta</span></a>
+                    <a onclick="confirmarConta()" class="botão flex" href="PaginaInício.html"><span>Criar Conta</span></a>
                 </div>
             </div>
         </div>

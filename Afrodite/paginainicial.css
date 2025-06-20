@@ -39,3 +39,9 @@ h3{
 .diferença{
     left: 90px !important;
 }
+.caixa .imagem{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 25px;
+}
