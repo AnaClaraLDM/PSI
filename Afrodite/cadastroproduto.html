@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastrojuridico</title>
+    <link rel="stylesheet" href="cadastrojuridico.css">
+    <link rel="stylesheet" href="geral.css">
+</head>
+<body>
+<script>
+    function criarProduto() {
+    alert("Produto cadastrado com sucesso!");
+      
+    }
+</script>
+    <main class="flex centralizar">
+        <form class="logincadastro flex centralizar">
+            <img src="img/Logogrande.svg" alt="Logo Afrodite">
+            <div class="login flex">
+                <div class=" elemento flex">
+                    <div>
+                        <label for="nomeproduto">Nome do Produto</label>
+                        <input id="nomeproduto" type="text">
+                    </div>
+                    <div>
+                        <label for="descrição">Descrição</label>
+                        <input id="descrição" type="text">
+                    </div>
+                    <div>
+                        <label for="anexarimgagem">Anexar imagem</label>
+                        <input id="anexarimgagem" type="file" accept="image/*">
+                    </div>
+                </div>
+                <div class="elemento flex">
+                    <div>
+                        <label for="preco">Preço</label>
+                        <input id="preco" type="number" min="0" step="0.01" placeholder="R$ 0.00">
+                    </div>
+                    <div>
+                        <label for="sobre">Sobre</label>
+                        <input id="sobre" type="text"> 
+                    </div>
+                    <a onclick="criarProduto()" class="botão flex" href="PaginaInícioVendedor.html"><span>Cadastrar  Produto</span></a>
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

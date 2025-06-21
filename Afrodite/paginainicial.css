@@ -1,12 +1,4 @@
-.caixa{
-    width: 190px;
-    height: 258px;
-    border-radius: 25px;
-    background: #3B1283;
-}
-.caixa img{
-    padding: 5px;
-}
+
 .row{
     justify-content: space-between;
 }
@@ -24,7 +16,7 @@ h1{
     top: 31.03px;
     left: 85px;
 }
-h2,h3,section span{
+h2,h3,main span{
     margin: 0px;
     color: #FFF;
 }

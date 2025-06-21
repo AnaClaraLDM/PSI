@@ -29,7 +29,7 @@ img {
 .botão {
     border-radius: 10px;
     background: #9FD9D2;
-    width: 399px;
+    min-width: 399px;
     height: 39px;
     text-shadow: 0px 4px 4px rgba(59, 18, 131, 0.60);
     font-size: 20px;
