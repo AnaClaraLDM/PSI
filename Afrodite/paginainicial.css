@@ -1,6 +1,6 @@
 
 .row{
-    justify-content: space-between;
+    column-gap: 32.5px;
 }
 h1{
     color: #F06073;
