@@ -21,3 +21,32 @@ main div{
     left: 5%;
     width: 10%;
 }
+@media (max-width: 700px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    padding: 0 10px;
+  }
+
+  .imagem {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+
+  .coração {
+    width: 10%;
+    top: 75%;
+    left: 8%;
+  }
+
+  main div {
+    width: 100%;
+    position: relative;
+  }
+
+  .name {
+    display: none;
+  }
+
+}

@@ -85,3 +85,42 @@ p{
     color: #FFF;
     background-color: #A9BF84;
 }
+@media (max-width: 700px) {
+  .cesta {
+    width: 90%;
+    padding-top: 40px;
+    row-gap: 40px;
+  }
+
+  .cesta section {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 20px;
+  }
+
+  .cesta section img {
+    padding-left: 0;
+    width: 100%;
+    max-width: 250px;
+    align-self: center;
+  }
+
+  .produto {
+    margin: 0;
+    width: 100%;
+  }
+  .deletar {
+    align-self: flex-start;
+    padding: 6px 10px;
+  }
+
+  .comprar {
+    font-size: 16px;
+    padding: 20px 0px;
+    width: 100%;
+  }
+  .descricao img{
+    display: none;
+  }
+}

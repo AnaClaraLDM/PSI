@@ -32,6 +32,10 @@ header{
     align-items: center;
     column-gap: 6px;
 }
+.navprincipal div:hover{
+    border: 2px solid #F06073;
+    border-radius: 10px;
+}
 .icon{
     width: 30px;
     height: 30px;
@@ -126,15 +130,116 @@ footer{
 .afrodite section{
     margin-top: 56px;
 }
-@media (max-width:700px){
-    .name{
-        display: none;
+@media (max-width: 700px) {
+    header{
+        max-height: 260px;
     }
-    .navprincipal div img{
-        width: 4vh;
+    .cabeçalho {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding-bottom: 0px;
+  }
+    main .cabeçalho{
+        margin-top: 0px;
     }
-    .logo{
-        width: 30px;
-    }
-    
+  .caixa{
+    text-align: left;
+    margin-top: 5vh;
+  }
+
+  .search {
+    width: 90%;
+    margin-top: 0px;
+  }
+
+  .pesquisa {
+    height: 30px;
+    padding-left: 50px;
+    font-size: 8px;
+  }
+
+  .search img {
+    top: 4px;
+    left: 15px;
+    width: 20px;
+  }
+  .navprincipal .icon{
+    width: 20px;
+  }
+  .navprincipal {
+    width: 100%;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .navprincipal .name {
+    display: none;
+  }
+
+  .logo {
+    width: 40px;
+    height: auto;
+  }
+
+  .links {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 6px;
+    padding: 2px 0;
+  }
+
+  .flex.row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  h1 {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 10px;
+  }
+
+  span {
+    font-size: 12px;
+  }
+
+  main span .destaque {
+    font-size: 18px;
+  }
+
+  footer {
+    padding: 40px 10px;
+    text-align: center;
+  }
+
+  .redessociais {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .redessociais img {
+    width: 30px;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+
+  .copyright img {
+    position: static;
+    display: block;
+    margin: 0 auto 5px;
+  }
 }
