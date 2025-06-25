@@ -8,7 +8,6 @@
     border-radius: 20px;
     background: rgba(59, 18, 131, 0.7);
 }
-
 img {
     right: 1048.6px;
 }
@@ -41,4 +40,29 @@ input[type="file"] {
     font-family: Arial, sans-serif;
     font-size: 14px;
     padding: 0px;
+}
+@media (max-width:700px){
+    .logincadastro {
+        margin-top: 70px;
+        width: 200px;
+        height: 280px;
+    }
+    img {
+        right: 50px;
+    }
+    .elemento {
+        flex-direction: column;
+        row-gap: 34px;
+    }
+    input[type="file"]::-webkit-file-upload-button{
+        height: 20px;
+        border-radius: 5px;
+        padding: 0px 0px;
+        border: none;
+    }
+        
+    input[type="file"] {
+        font-size: 4px;
+        padding: 0px;
+    }
 }

@@ -30,3 +30,27 @@ a b {
 .empresa {
     margin-bottom: 108px;
 }
+@media (max-width:700px){
+    .logincadastro {
+        margin-top: 70px;
+        position: relative;
+        width: 200px;
+        height: 200px;
+    }
+    .login {
+        margin-top: 35.02px;
+        width: 160px;
+        height: 100px;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+    }
+    h1 {
+        color: #FFF;
+        font-size: 8px;
+        text-align: center;
+    }
+    .empresa {
+        margin-bottom: 0px;
+    }
+}
