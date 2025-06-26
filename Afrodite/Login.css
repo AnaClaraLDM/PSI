@@ -53,4 +53,7 @@ a b {
     a b {
         margin-left: 6px;
     }
+    .textinho span:hover, b:hover{
+    border-bottom: 1px solid #F06073;
+    }
 }
