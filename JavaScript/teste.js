@@ -21,5 +21,5 @@ let funcionario = {
     matricula: "20478",
     idade: 23 , 
     funcao: "nutricionista",   
-}
-console.log(`Usuário: \n ${funcionario.nome}`)
+};
+console.log(`Usuário: \nNome: ${funcionario.nome}\nNome: ${funcionario.git}\nNome: ${funcionario.nome}\nNome: ${funcionario.nome}`);

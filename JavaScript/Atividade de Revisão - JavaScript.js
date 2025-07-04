@@ -72,8 +72,8 @@ function produtoDisponível(){
 //Criação de uma classe 
 class Loja{
     constructor(preço, nome_produto, nome_cliente, quantidade_produto){
-        this.preço = preço;
-        this.nome_produto = nome_produto;
+        this.preço = [preço];
+        this.nome_produto = [nome_produto];
         this.nome_cliente = nome_cliente;
         this.quantidade_produto = quantidade_produto;
     };
@@ -96,15 +96,16 @@ class Loja{
         if(quantidade <= this.quantidade_produto){
             let total_preco = quantidade * this.preço
             total_preco = total_preco - total_preco *10/100
-            console.log(`Com desconto de 10% é possível comprar ${quantidade} ${this.nome_produto} por apenas R$${total_preco},00`)
+            console.log(`Com desconto de 10% é possível comprar ${quantidade} ${this.nome_produto} por apenas R$${total_preco}`)
         }
         else{
             console.log("Não existem produtos suficientes em estoque")
         }
     };
+
 }
-const loja1 = new Loja(10, "Shampoo", "Ana Clara", 20);
+const loja1 = new Loja([10.00, 28.79], ["Shampoo", "Celular"], "Ana Clara", 20);
 loja1.boasVindas();
 loja1.produtoDisponível();
 loja1.mostrarProduto();
-loja1.desconto(5)
+loja1.desconto(23)
