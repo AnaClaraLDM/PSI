@@ -19,10 +19,10 @@ if(idade < 18){
 };
 for(let i=0; i<10; i++);
 
-    const pessoas = {
-        endereço:{
-            rua:"rua lallala",
-        }
-    }
+const pessoas = {
+    endereço:{    
+        rua:"rua lallala",
+        }     
+}    
 
-    console.log(pessoas.endereço.rua);
+console.log(pessoas.endereço.rua);
