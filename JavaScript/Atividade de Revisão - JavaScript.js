@@ -1,3 +1,5 @@
+//Aluna: Ana Clara Lima Dantas de Medeiros
+
 /* Contexto: Parabéns! Você foi escolhido para uma entrevista em uma loja para trabalhar na
 parte de programação de um site! Agora, você está na reta final da entrevista, e a última etapa
 é um breve desafio para 10 situações hipotéticas da loja, para saber se você consegue
