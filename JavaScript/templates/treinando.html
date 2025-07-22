@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Sorveteria Doçura Gelada</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom, #ffd6d6, #fff6e6);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            background: linear-gradient(90deg, #ff80ab, #ff4081);
+            color: white;
+            padding: 30px 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .banner {
+            width: 100%;
+            max-height: 350px;
+            overflow: hidden;
+        }
+
+        .banner img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        #sabores {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #fff5f8;
+        }
+
+        #sabores h2 {
+            color: #e91e63;
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            display: inline-block;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin: 15px;
+            width: 200px;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 15px 15px 0 0;
+        }
+
+        .card p {
+            margin: 10px;
+            font-weight: bold;
+            color: #d81b60;
+        }
+
+        #promocao {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(90deg, #ff9a9e, #fad0c4);
+        }
+
+        #promocao h2 {
+            color: #c2185b;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #f06292;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.2s;
+            margin: 10px;
+        }
+
+        button:hover {
+            background-color: #e91e63;
+            transform: scale(1.05);
+        }
+
+        footer {
+            background: #f48fb1;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🍦 Sorveteria Doçura Gelada 🍨</h1>
+    <p>Os melhores sabores para refrescar seu dia!</p>
+</header>
+
+<!-- Imagem principal da sorveteria -->
+<div class="banner">
+    <img src="https://i.imgur.com/KF8GaQQ.jpg" alt="Imagem da Sorveteria" id="imagem-banner">
+</div>
+
+<section id="sabores">
+    <h2>Nossos Sabores</h2>
+    <div class="card">
+        <img src="https://i.imgur.com/1X0mS0C.png" alt="Morango">
+        <p>Sorvete de Morango</p>
+    </div>
+    <div class="card">
+        <img src="https://i.imgur.com/IuCO2Je.png" alt="Chocolate">
+        <p>Sorvete de Chocolate</p>
+    </div>
+    <div class="card">
+        <img src="https://i.imgur.com/ZBJpOda.png" alt="Baunilha">
+        <p>Sorvete de Baunilha</p>
+    </div>
+</section>
+
+<section id="promocao">
+    <h2>Promoção Especial!</h2>
+    <button onclick="mostrarPromocao()">Clique para ver a surpresa!</button>
+    <button onclick="trocarImagem()">Trocar imagem do banner</button>
+</section>
+
+<footer>
+    <p>&copy; 2025 - Sorveteria Doçura Gelada. Todos os direitos reservados.</p>
+</footer>
+
+<script>
+    function mostrarPromocao() {
+        alert("🎉 Promoção Especial: Compre 2 bolas e ganhe a terceira grátis! 🍦");
+    }
+
+    let imagensBanner = [
+        "https://i.imgur.com/KF8GaQQ.jpg",
+        "https://i.imgur.com/VAVmmlz.jpg",
+        "https://i.imgur.com/fmKpscm.jpg"
+    ];
+    let indiceAtual = 0;
+
+    function trocarImagem() {
+        indiceAtual = (indiceAtual + 1) % imagensBanner.length;
+        document.getElementById("imagem-banner").src = imagensBanner[indiceAtual];
+    }
+</script>
+
+</body>
+</html>
