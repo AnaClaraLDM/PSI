@@ -28,6 +28,7 @@
         .banner img {
             width: 100%;
             height: auto;
+            object-fit: cover;
             display: block;
         }
 
@@ -58,8 +59,11 @@
         }
 
         .card img {
-            width: 100%;
-            border-radius: 15px 15px 0 0;
+        width: 100%;
+        height: 158px;
+        object-fit: cover;
+        display: block;
+        border-radius: 15px 15px 0 0;
         }
 
         .card p {
@@ -109,27 +113,27 @@
 <body>
 
 <header>
-    <h1>🍦 Sorveteria Doçura Gelada 🍨</h1>
+    <h1>🍦 Sorveteria Papa's 🍨</h1>
     <p>Os melhores sabores para refrescar seu dia!</p>
 </header>
 
 <!-- Imagem principal da sorveteria -->
 <div class="banner">
-    <img src="https://i.imgur.com/KF8GaQQ.jpg" alt="Imagem da Sorveteria" id="imagem-banner">
+    <img src="https://cdn.pixabay.com/photo/2016/10/03/23/15/ice-1713160_1280.jpg" alt="Imagem da Sorveteria" id="imagem-banner">
 </div>
 
 <section id="sabores">
     <h2>Nossos Sabores</h2>
     <div class="card">
-        <img src="https://i.imgur.com/1X0mS0C.png" alt="Morango">
-        <p>Sorvete de Morango</p>
+        <img src="https://i.pinimg.com/1200x/fa/fd/78/fafd78901e869cffb8f03458e45d8768.jpg" alt="Nutella">
+        <p>Sorvete de Nutella</p>
     </div>
     <div class="card">
-        <img src="https://i.imgur.com/IuCO2Je.png" alt="Chocolate">
-        <p>Sorvete de Chocolate</p>
+        <img src="https://cdn.pixabay.com/photo/2020/08/15/04/22/mint-ice-cream-rolls-5489580_1280.jpg" alt="Pistache">
+        <p>Sorvete de Pistache</p>
     </div>
     <div class="card">
-        <img src="https://i.imgur.com/ZBJpOda.png" alt="Baunilha">
+        <img src="https://i.pinimg.com/736x/03/0c/e0/030ce0b8e9ba82d81dfb12053c050f18.jpg" alt="Baunilha">
         <p>Sorvete de Baunilha</p>
     </div>
 </section>
@@ -137,29 +141,17 @@
 <section id="promocao">
     <h2>Promoção Especial!</h2>
     <button onclick="mostrarPromocao()">Clique para ver a surpresa!</button>
-    <button onclick="trocarImagem()">Trocar imagem do banner</button>
 </section>
 
 <footer>
-    <p>&copy; 2025 - Sorveteria Doçura Gelada. Todos os direitos reservados.</p>
+    <p>&copy; 2025 - Sorveteria Papa's. Todos os direitos reservados.</p>
 </footer>
 
 <script>
     function mostrarPromocao() {
-        alert("🎉 Promoção Especial: Compre 2 bolas e ganhe a terceira grátis! 🍦");
+        alert("🎉 Promoção Especial: Compre 2 sorvetes e ganhe um grátis! 🍦");
     }
 
-    let imagensBanner = [
-        "https://i.imgur.com/KF8GaQQ.jpg",
-        "https://i.imgur.com/VAVmmlz.jpg",
-        "https://i.imgur.com/fmKpscm.jpg"
-    ];
-    let indiceAtual = 0;
-
-    function trocarImagem() {
-        indiceAtual = (indiceAtual + 1) % imagensBanner.length;
-        document.getElementById("imagem-banner").src = imagensBanner[indiceAtual];
-    }
 </script>
 
 </body>
