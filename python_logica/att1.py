@@ -1,4 +1,4 @@
-# 01 - Se o usuário tiver +18 anos (imprimir mensagem)
+L# 01 - Se o usuário tiver +18 anos (imprimir mensagem)
 #      se menor de 18 anos (imprimir mensagem)
 
 #idade = int(input("Quantos anos você tem? "))
